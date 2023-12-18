@@ -20,7 +20,6 @@ function App() {
           <Link to='/' className='text-3xl hover:text-2 cursor-pointer font-bold text-0'>Haikus World</Link>
           <div className=' cursor-pointer'>
             <FaSearch color='white' size={25}></FaSearch>
-            <h1>hello</h1>
           </div>
         </nav>
         <Routes>
