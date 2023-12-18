@@ -114,7 +114,7 @@ const H_Write = () => {
       <div className='w-screen bg-5 absolute bg-opacity-50 top-[-60%] h-screen flex justify-center items-center'>
         <div className="w-full flex gap-3 flex-col items-center bg-2 py-4 px-6 ">
           <p className='text-4 text-2xl font-bold'>{message}</p>
-          <Link to='/read' className='bg-4 text-2' onClick={onClose}>Close</Link>
+          <Link to='/read' className='bg-4 py-3 rounded-md px-6 text-2' onClick={onClose}>Close</Link>
         </div>
       </div>
     );
